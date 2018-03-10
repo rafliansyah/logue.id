@@ -1,0 +1,4 @@
+[18-Nov-2017 14:48:36 UTC] PHP Parse error:  syntax error, unexpected ''dateOfBirth'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/sobat/public_html/test/app/Http/Controllers/Api/Auth/UserProfileController.php on line 108
+[18-Nov-2017 14:50:13 UTC] PHP Parse error:  syntax error, unexpected ''dateOfBirth'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/sobat/public_html/test/app/Http/Controllers/Api/Auth/UserProfileController.php on line 108
+[18-Nov-2017 14:50:55 UTC] PHP Parse error:  syntax error, unexpected ''dateOfBirth'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/sobat/public_html/test/app/Http/Controllers/Api/Auth/UserProfileController.php on line 108
+[18-Nov-2017 14:51:15 UTC] PHP Parse error:  syntax error, unexpected ''phone'' (T_CONSTANT_ENCAPSED_STRING) in /home/sobat/public_html/test/app/Http/Controllers/Api/Auth/UserProfileController.php on line 121
