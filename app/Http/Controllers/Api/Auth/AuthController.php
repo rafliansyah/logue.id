@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Controllers\Controller;
 use JWTAuth;
-use App\User;
+use App\Model\User;
 
 use Tymon\JWTAuth\Exceptions\JWTException;
 use Validator;
@@ -143,7 +143,7 @@ class AuthController extends Controller
       * 401 = unauthorized
       */
       public function userProfile(Request $request){
-        
+
       }
 
 }

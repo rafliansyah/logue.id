@@ -22,7 +22,10 @@ Route::post('account/activate', 'Api\Auth\RegisterController@verifyUserCode');
 Route::post('account/login', 'Api\Auth\AuthController@login');
 Route::post('account/recover', 'Api\Auth\AuthController@recover');
 
-Route::get('account/userProfile', 'Api\Auth\UserProfileController@userProfile');
+Route::get('account/userProfile/{id}', 'Api\Auth\UserProfileController@userProfileEdit');
+Route::post('account/userProfile/{id}', 'Api\Auth\UserProfileController@userProfileUpdate');
+
+Route::post('account/createLomba', 'Lomba\LombaController@createLomba');
 
 
 Route::group(['middleware' => ['jwt.auth']], function() {

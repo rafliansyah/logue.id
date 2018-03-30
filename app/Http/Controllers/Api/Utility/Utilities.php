@@ -18,4 +18,5 @@ class Utilities
         }
         return $randomChar;
     }
+    
 }
